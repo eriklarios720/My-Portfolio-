@@ -1,20 +1,24 @@
 import '@/styles/animate.css';
-import '@/styles/prism-vsc-dark-plus.css';
-import '@/styles/star.css';
 import '@/styles/tailwind.css';
 
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
+import InteractiveBackground from '@/components/InteractiveBackground';
 import ScrollToTop from '@/components/ScrollToTop';
+import { Metadata } from 'next';
 import { Plus_Jakarta_Sans } from 'next/font/google';
 import NextTopLoader from 'nextjs-toploader';
-import AuthProvider from '../context/AuthContext';
-import ToasterContext from '../context/ToastContext';
 
 const plusJakarta = Plus_Jakarta_Sans({
   subsets: ['latin'],
   display: 'swap',
 });
+
+export const metadata: Metadata = {
+  title: 'Erik Larios | Full-Stack Developer',
+  description:
+    'Portfolio of Erik Larios, a full-stack developer and U.S. Army veteran building responsive websites and React applications.',
+};
 
 export default function RootLayout({
   children,
@@ -26,19 +30,16 @@ export default function RootLayout({
       <body>
         <div className='isolate'>
           <NextTopLoader
-            color='#8646F4'
+            color='#595F39'
             crawlSpeed={300}
             showSpinner={false}
             shadow='none'
           />
 
-          <AuthProvider>
-            <Header />
-            {children}
-            <Footer />
-
-            <ToasterContext />
-          </AuthProvider>
+          <InteractiveBackground />
+          <Header />
+          {children}
+          <Footer />
         </div>
 
         <ScrollToTop />
