@@ -37,7 +37,7 @@ const Header = () => {
           <div className="flex w-full items-center justify-between lg:w-auto">
             <Link
               href="#home"
-              className="text-lg font-extrabold tracking-tight text-ink"
+              className="text-xl font-extrabold tracking-tight text-ink"
             >
               Erik Larios
             </Link>
@@ -95,7 +95,7 @@ const Header = () => {
                     <Link
                       href={`${menuItem.path}`}
                       onClick={() => setNavigationOpen(false)}
-                      className={`relative rounded-full border border-transparent px-4 py-1.5 text-sm hover:bg-surface/60 hover:text-ink ${
+                      className={`relative rounded-full border border-transparent px-4 py-1.5 text-base hover:bg-surface/60 hover:text-ink ${
                         pathUrl === menuItem.path
                           ? "bg-surface/60 text-ink"
                           : "text-ink/70"
@@ -112,7 +112,7 @@ const Header = () => {
               <Link
                 href="/resume/Erik-Larios-Resume.pdf"
                 target="_blank"
-                className="inline-flex items-center gap-1.5 rounded-lg bg-accent px-4.5 py-2 text-sm font-medium text-background hover:opacity-85"
+                className="inline-flex items-center gap-1.5 rounded-lg bg-accent px-4.5 py-2 text-base font-medium text-background hover:opacity-85"
               >
                 Resume
               </Link>

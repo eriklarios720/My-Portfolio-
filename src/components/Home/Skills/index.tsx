@@ -7,10 +7,13 @@ const Skills = () => {
     <section id="skills" className="relative z-10 py-20 lg:py-28">
       <div className="mx-auto max-w-[1170px] px-4 sm:px-8 xl:px-0">
         <ScrollReveal direction="up">
+          <span className="mb-3 block text-sm font-semibold uppercase tracking-widest text-accent">
+            Capabilities
+          </span>
           <AnimatedText
             as="h2"
             text="Skills & Tools"
-            className="mb-12 block text-2xl font-extrabold text-ink sm:text-4xl"
+            className="mb-12 block text-3xl font-extrabold text-ink sm:text-5xl"
           />
         </ScrollReveal>
 
@@ -21,15 +24,15 @@ const Skills = () => {
               direction="up"
               delay={index * 0.08}
             >
-              <div className="h-full rounded-2xl border border-ink/10 bg-surface/40 p-6 transition-colors duration-300 hover:bg-surface/60">
-                <h3 className="mb-4 text-lg font-semibold text-ink">
+              <div className="h-full rounded-2xl border border-ink/10 bg-surface/40 p-6 transition-all duration-300 hover:-translate-y-1 hover:bg-surface/60 hover:shadow-lg">
+                <h3 className="mb-4 text-xl font-semibold text-ink">
                   {group.title}
                 </h3>
                 <div className="flex flex-wrap gap-2">
                   {group.skills.map((skill) => (
                     <span
                       key={skill}
-                      className="rounded-full border border-accent/20 bg-accent/10 px-3 py-1 text-xs font-medium text-accent"
+                      className="rounded-full border border-accent/20 bg-accent/10 px-3 py-1 text-sm font-medium text-accent"
                     >
                       {skill}
                     </span>

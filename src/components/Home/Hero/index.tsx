@@ -10,12 +10,12 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative z-10 overflow-hidden pt-40 md:pt-44 xl:pt-48"
+      className="relative z-10 overflow-hidden pt-40 pb-24 md:pt-44 xl:pt-48"
     >
       <div className="mx-auto grid max-w-[1170px] items-center gap-12 px-4 sm:px-8 lg:grid-cols-[1.1fr_0.9fr] xl:px-0">
         <div>
           <ScrollReveal direction="up">
-            <span className="mb-5 inline-flex items-center gap-2 rounded-full border border-ink/10 bg-surface/60 px-4.5 py-2 text-sm font-medium text-ink">
+            <span className="mb-5 inline-flex items-center gap-2 rounded-full border border-ink/10 bg-surface/60 px-4.5 py-2 text-base font-medium text-ink">
               U.S. Army Veteran · Active Secret Clearance
             </span>
           </ScrollReveal>
@@ -27,10 +27,11 @@ const Hero = () => {
           />
 
           <ScrollReveal direction="up" delay={0.15}>
-            <p className="mx-auto mb-9 max-w-[540px] font-medium text-ink/70 md:text-lg">
+            <p className="mx-auto mb-9 max-w-[540px] text-lg font-medium text-ink/70 md:text-xl">
               CompTIA Security+ certified developer building responsive
               websites and React applications, with hands-on experience in
-              HTML, CSS, JavaScript, and full-stack development.
+              HTML, CSS, JavaScript, and full-stack development. Open to
+              full-stack development and cybersecurity opportunities.
             </p>
           </ScrollReveal>
 
@@ -38,14 +39,14 @@ const Hero = () => {
             <div className="flex flex-wrap items-center gap-4">
               <Link
                 href="#projects"
-                className="inline-flex rounded-lg bg-accent px-7 py-3 font-medium text-background duration-300 ease-in hover:opacity-85"
+                className="inline-flex rounded-lg bg-accent px-7 py-3 text-lg font-medium text-background duration-300 ease-in hover:opacity-85"
               >
                 View My Work
               </Link>
               <Link
                 href="/resume/Erik-Larios-Resume.pdf"
                 target="_blank"
-                className="inline-flex rounded-lg border border-ink/15 px-7 py-3 font-medium text-ink duration-300 ease-in hover:bg-surface/60"
+                className="inline-flex rounded-lg border border-ink/15 px-7 py-3 text-lg font-medium text-ink duration-300 ease-in hover:bg-surface/60"
               >
                 Download Resume
               </Link>
@@ -69,6 +70,28 @@ const Hero = () => {
           </div>
         </ScrollReveal>
       </div>
+
+      <Link
+        href="#about"
+        aria-label="Scroll to About section"
+        className="absolute bottom-8 left-1/2 hidden -translate-x-1/2 animate-bounce text-ink/40 hover:text-accent sm:block"
+      >
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12 4v15m0 0-6-6m6 6 6-6"
+            stroke="currentColor"
+            strokeWidth="1.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </Link>
     </section>
   );
 };
