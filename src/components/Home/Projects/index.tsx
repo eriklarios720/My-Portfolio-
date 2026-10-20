@@ -50,7 +50,7 @@ const Projects = () => {
                   rel="noreferrer"
                   className="mt-5 w-fit font-semibold text-accent underline decoration-accent/40 underline-offset-4 transition-colors hover:text-ink"
                 >
-                  View project
+                  {project.linkLabel ?? "View project"}
                 </a>
               </div>
             </ScrollReveal>

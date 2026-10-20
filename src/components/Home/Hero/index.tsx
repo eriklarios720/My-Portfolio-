@@ -16,22 +16,22 @@ const Hero = () => {
         <div>
           <ScrollReveal direction="up">
             <span className="mb-5 inline-flex items-center gap-2 rounded-full border border-ink/10 bg-surface/60 px-4.5 py-2 text-base font-medium text-ink">
-              U.S. Army Veteran · Active Secret Clearance
+              U.S. Army Veteran · Secret Clearance · Security+
             </span>
           </ScrollReveal>
 
           <AnimatedText
             as="h1"
-            text="Hi, I'm Erik Larios — Full-Stack Developer."
+            text="Hi, I'm Erik Larios — IT & Cybersecurity."
             className="mb-6 block text-3xl font-extrabold text-ink sm:text-5xl xl:text-heading-1"
           />
 
           <ScrollReveal direction="up" delay={0.15}>
             <p className="mx-auto mb-9 max-w-[540px] text-lg font-medium text-ink/70 md:text-xl">
-              CompTIA Security+ certified developer building responsive
-              websites and React applications, with hands-on experience in
-              HTML, CSS, JavaScript, and full-stack development. Open to
-              full-stack development and cybersecurity opportunities.
+              CompTIA Security+ certified U.S. Army veteran with a foundation
+              in networking, access control, and risk management, plus
+              hands-on scripting and web development experience. Seeking
+              entry-level IT support and cybersecurity opportunities.
             </p>
           </ScrollReveal>
 
@@ -44,7 +44,7 @@ const Hero = () => {
                 View My Work
               </Link>
               <Link
-                href="/resume/Erik-Larios-Resume.pdf"
+                href="/resume/Erik-Larios-Resume.pdf#toolbar=0&navpanes=0"
                 target="_blank"
                 className="inline-flex rounded-lg border border-ink/15 px-7 py-3 text-lg font-medium text-ink duration-300 ease-in hover:bg-surface/60"
               >

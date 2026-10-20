@@ -34,9 +34,9 @@ const Contact = () => {
 
         <ScrollReveal direction="up" delay={0.1}>
           <p className="mb-9 text-lg font-medium text-ink/70 md:text-xl">
-            Open to full-stack development and cybersecurity opportunities.
-            Reach out and let&apos;s talk about how I can help build or
-            secure your next project.
+            Seeking entry-level IT support and cybersecurity opportunities.
+            Reach out and let&apos;s talk about how I can help support and
+            secure your team.
           </p>
         </ScrollReveal>
 
@@ -86,6 +86,12 @@ const Contact = () => {
               Colorado Springs, CO
             </span>
           </div>
+        </ScrollReveal>
+
+        <ScrollReveal direction="up" delay={0.3}>
+          <p className="mt-8 text-base font-medium text-ink/60">
+            Professional references available upon request.
+          </p>
         </ScrollReveal>
       </div>
     </section>

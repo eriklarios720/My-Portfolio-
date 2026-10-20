@@ -15,9 +15,9 @@ const plusJakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: 'Erik Larios | Full-Stack Developer',
+  title: 'Erik Larios | IT Support & Cybersecurity',
   description:
-    'Portfolio of Erik Larios, a full-stack developer and U.S. Army veteran building responsive websites and React applications, open to full-stack development and cybersecurity opportunities.',
+    'Portfolio of Erik Larios, a U.S. Army veteran with a Secret Security Clearance and CompTIA Security+ certification, seeking entry-level IT support and cybersecurity opportunities.',
 };
 
 export default function RootLayout({

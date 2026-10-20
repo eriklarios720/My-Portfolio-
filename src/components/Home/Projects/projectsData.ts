@@ -4,6 +4,7 @@ export type Project = {
   description: string;
   tech: string[];
   href: string;
+  linkLabel?: string;
 };
 
 const projectsData: Project[] = [
@@ -19,7 +20,7 @@ const projectsData: Project[] = [
     id: 2,
     title: "Barbershop Website",
     description:
-      "A responsive business website with interactive features and mobile-friendly layouts built to help a local barbershop reach customers online.",
+      "A responsive business website with interactive features and mobile-friendly layouts; source code managed with Git and GitHub.",
     tech: ["HTML", "CSS", "JavaScript"],
     href: "/projects/barbershop/index.html",
   },
@@ -27,9 +28,18 @@ const projectsData: Project[] = [
     id: 3,
     title: "The Beans Place",
     description:
-      "A coffee shop website showcasing specialty beans, product collections, and a welcoming storefront experience.",
+      "A component-based React coffee shop app built with reusable components, props, state, and hooks; debugged and tested with browser DevTools.",
     tech: ["React", "Vite", "Tailwind CSS"],
     href: "/projects/beans-place/index.html",
+  },
+  {
+    id: 4,
+    title: "Personal Portfolio",
+    description:
+      "This site: a personal portfolio built with Next.js and React, with Claude assistance in VS Code, to present technical projects and professional background.",
+    tech: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+    href: "https://github.com/eriklarios720/My-Portfolio-",
+    linkLabel: "View source on GitHub",
   },
 ];
 

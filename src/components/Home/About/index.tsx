@@ -2,12 +2,13 @@ import ScrollReveal from "@/components/ScrollReveal";
 import AnimatedText from "@/components/AnimatedText";
 
 const certifications = [
-  "Active Secret Security Clearance",
+  "Secret Security Clearance",
   "CompTIA Security+",
   "HTML/CSS Certification",
   "JavaScript Certification",
-  "React Certification — In Progress",
-  "Python Certification — Upcoming",
+  "React Certification",
+  "Python Course — In Progress",
+  "MySQL / Database Course — Planned",
 ];
 
 const About = () => {
@@ -28,12 +29,14 @@ const About = () => {
         <div className="grid gap-10 lg:grid-cols-[1.2fr_0.8fr]">
           <ScrollReveal direction="up" delay={0.1}>
             <p className="max-w-[640px] text-lg font-medium text-ink/70 md:text-xl">
-              U.S. Army veteran and former Sergeant (E-5) with an active
-              Secret Security Clearance and CompTIA Security+ certification.
-              Certified in HTML/CSS and JavaScript with hands-on experience
-              building responsive websites and React applications.
-              Continuing technical training in React, Python, cybersecurity,
-              and full-stack web development.
+              U.S. Army veteran and former Sergeant (E-5) with over five years
+              of service, a Secret Security Clearance, and CompTIA Security+
+              certification. I bring a foundation in networking (TCP/IP, DNS,
+              DHCP), access control, and risk management, plus hands-on
+              scripting and development experience. Proven leader in
+              high-pressure, detail-critical environments, including a combat
+              deployment to Iraq. Seeking entry-level IT support or
+              cybersecurity opportunities.
             </p>
           </ScrollReveal>
 

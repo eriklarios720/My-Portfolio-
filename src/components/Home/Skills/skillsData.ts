@@ -23,7 +23,7 @@ const skillsData: SkillGroup[] = [
   {
     id: 4,
     title: "Security",
-    skills: ["Access Control", "Risk Management", "InfoSec"],
+    skills: ["Access Control", "InfoSec Principles", "Risk Management"],
   },
   {
     id: 5,
@@ -32,8 +32,8 @@ const skillsData: SkillGroup[] = [
   },
   {
     id: 6,
-    title: "Currently Learning",
-    skills: ["Python", "MySQL", "Full-Stack Development"],
+    title: "Scripting & Database",
+    skills: ["JavaScript", "Python (In Progress)", "MySQL (Planned)"],
   },
 ];
 
