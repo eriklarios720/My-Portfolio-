@@ -90,7 +90,13 @@ const Contact = () => {
 
         <ScrollReveal direction="up" delay={0.3}>
           <p className="mt-8 text-base font-medium text-ink/60">
-            Professional references available upon request.
+            Professional references available upon request.{" "}
+            <a
+              href={`mailto:${email}?subject=${encodeURIComponent("Reference Request")}`}
+              className="text-accent underline underline-offset-4 duration-200 hover:opacity-80"
+            >
+              Request references
+            </a>
           </p>
         </ScrollReveal>
       </div>

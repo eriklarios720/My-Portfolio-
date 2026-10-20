@@ -7,7 +7,7 @@ const certifications = [
   "HTML/CSS Certification",
   "JavaScript Certification",
   "React Certification",
-  "Python Course — In Progress",
+  "Python Course — In Progress (October 2026)",
   "MySQL / Database Course — Planned",
 ];
 
