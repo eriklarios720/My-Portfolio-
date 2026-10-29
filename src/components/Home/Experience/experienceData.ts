@@ -9,15 +9,16 @@ export type ExperienceItem = {
 const experienceData: ExperienceItem[] = [
   {
     id: 1,
-    role: "Sergeant (E-5) | Licensed Practical Nurse (LPN/LVN)",
-    organization: "U.S. Army",
+    role: "Sergeant (E-5), U.S. Army",
+    organization:
+      "2nd Forward Resuscitative Surgical Detachment | Licensed Practical Nurse",
     period: "Nov 2020 – May 2026",
     bullets: [
-      "Iraq deployment: March – December 2024. Awarded the Army Commendation Medal with “C” Device.",
-      "Supervised 3–4 soldiers, overseeing training and personnel accountability in a small Army medical unit (2nd Forward Resuscitative Surgical Detachment).",
-      "Trained 50+ soldiers and civilians with no prior medical experience in Combat Lifesaver (CLS) skills through classroom presentations and hands-on casualty-care instruction during deployment to Iraq.",
-      "Collaborated with a medical team to establish an alternate treatment facility in Iraq; planned the setup, organized supplies, prepared equipment, and verified readiness to support casualty care and damage-control resuscitation if the primary facility became unusable.",
-      "Safeguarded sensitive patient and personnel information and maintained accurate documentation in accordance with military confidentiality requirements and established procedures (HIPAA).",
+      "Iraq deployment: Mar – Dec 2024. Awarded the Army Commendation Medal with “C” Device.",
+      "Qualified 50+ soldiers and civilians with no medical background in Combat Lifesaver skills, with a 90% first-attempt pass rate, by designing and teaching classroom and hands-on casualty-care courses during a combat deployment.",
+      "Stood up a fully equipped backup treatment facility in 10 days, so casualty care could continue if the primary site went down, by planning the layout, inventorying supplies and equipment, and running pre-operation readiness checks.",
+      "Maintained 100+ patient and personnel records with zero confidentiality breaches over 5+ years by enforcing HIPAA and military access-control rules on who could view, edit, and release sensitive data.",
+      "Kept a team of 3–4 soldiers at full training and accountability compliance through a 10-month deployment by tracking certification deadlines, scheduling training, and auditing readiness records.",
     ],
   },
 ];

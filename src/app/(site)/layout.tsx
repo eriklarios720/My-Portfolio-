@@ -17,7 +17,7 @@ const plusJakarta = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   title: 'Erik Larios | IT Support & Cybersecurity',
   description:
-    'Portfolio of Erik Larios, a U.S. Army veteran with a Secret Security Clearance and CompTIA Security+ certification, seeking entry-level IT support and cybersecurity opportunities.',
+    'Portfolio of Erik Larios, an Army veteran with a current Secret clearance and active CompTIA Security+, seeking an entry-level IT support or cybersecurity role on a defense or federal team.',
 };
 
 export default function RootLayout({

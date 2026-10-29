@@ -16,22 +16,22 @@ const Hero = () => {
         <div>
           <ScrollReveal direction="up">
             <span className="mb-5 inline-flex items-center gap-2 rounded-full border border-ink/10 bg-surface/60 px-4.5 py-2 text-base font-medium text-ink">
-              U.S. Army Veteran · Secret Clearance · Security+
+              Secret Clearance (Current) · CompTIA Security+ · U.S. Army Veteran
             </span>
           </ScrollReveal>
 
           <AnimatedText
             as="h1"
-            text="Hi, I'm Erik Larios — IT & Cybersecurity."
+            text="Hi, I'm Erik Larios — Entry-Level IT Support & Cybersecurity."
             className="mb-6 block text-3xl font-extrabold text-ink sm:text-5xl xl:text-heading-1"
           />
 
           <ScrollReveal direction="up" delay={0.15}>
             <p className="mx-auto mb-9 max-w-[540px] text-lg font-medium text-ink/70 md:text-xl">
-              CompTIA Security+ certified U.S. Army veteran with a foundation
-              in networking, access control, and risk management, plus
-              hands-on scripting and web development experience. Seeking
-              entry-level IT support and cybersecurity opportunities.
+              Army veteran with a current Secret clearance and active CompTIA
+              Security+, ready to start on cleared work without waiting on an
+              investigation or certification. Seeking an entry-level IT support
+              or cybersecurity role on a defense or federal team.
             </p>
           </ScrollReveal>
 

@@ -20,8 +20,8 @@ const projectsData: Project[] = [
     id: 2,
     title: "Barbershop Website",
     description:
-      "A responsive business website with interactive features and mobile-friendly layouts; source code managed with Git and GitHub.",
-    tech: ["HTML", "CSS", "JavaScript"],
+      "A responsive business website with interactive features and mobile-friendly layouts; source code and version history managed with Git and GitHub.",
+    tech: ["HTML", "CSS", "JavaScript", "Git"],
     href: "/projects/barbershop/index.html",
   },
   {
@@ -29,14 +29,14 @@ const projectsData: Project[] = [
     title: "The Beans Place",
     description:
       "A component-based React coffee shop app built with reusable components, props, state, and hooks; debugged and tested with browser DevTools.",
-    tech: ["React", "Vite", "Tailwind CSS"],
+    tech: ["React", "JavaScript", "Vite", "Tailwind CSS"],
     href: "/projects/beans-place/index.html",
   },
   {
     id: 4,
     title: "Personal Portfolio",
     description:
-      "This site: a personal portfolio built with Next.js and React, with Claude assistance in VS Code, to present technical projects and professional background.",
+      "This site: a personal portfolio built in Next.js and React to present technical projects and professional background.",
     tech: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
     href: "https://github.com/eriklarios720/My-Portfolio-",
     linkLabel: "View source on GitHub",
