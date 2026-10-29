@@ -109,13 +109,14 @@ const Header = () => {
             </nav>
 
             <div className="mt-7 flex items-center gap-6 lg:mt-0 lg:ml-6">
-              <Link
-                href="/resume/Erik-Larios-Resume.pdf#toolbar=0&navpanes=0"
+              <a
+                href="/resume/Erik-Larios-Resume.pdf"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 rounded-lg bg-accent px-4.5 py-2 text-base font-medium text-background hover:opacity-85"
               >
                 Resume
-              </Link>
+              </a>
             </div>
           </div>
         </div>

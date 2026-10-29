@@ -43,13 +43,13 @@ const Hero = () => {
               >
                 View My Work
               </Link>
-              <Link
-                href="/resume/Erik-Larios-Resume.pdf#toolbar=0&navpanes=0"
-                target="_blank"
+              <a
+                href="/resume/Erik-Larios-Resume.pdf"
+                download="Erik-Larios-Resume.pdf"
                 className="inline-flex rounded-lg border border-ink/15 px-7 py-3 text-lg font-medium text-ink duration-300 ease-in hover:bg-surface/60"
               >
                 Download Resume
-              </Link>
+              </a>
             </div>
           </ScrollReveal>
         </div>

@@ -82,6 +82,14 @@ const Contact = () => {
             >
               210-895-2039
             </a>
+            <a
+              href="https://www.linkedin.com/in/eriklarios"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex rounded-lg border border-ink/15 px-7 py-3 text-lg font-medium text-ink duration-300 ease-in hover:border-accent"
+            >
+              LinkedIn
+            </a>
             <span className="rounded-lg border border-ink/15 px-7 py-3 text-lg font-medium text-ink">
               Colorado Springs, CO
             </span>
