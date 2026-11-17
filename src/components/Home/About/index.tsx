@@ -25,8 +25,8 @@ const About = () => {
         <div className="grid gap-10 lg:grid-cols-[1.2fr_0.8fr]">
           <ScrollReveal direction="up" delay={0.1}>
             <p className="max-w-[640px] text-lg font-medium text-ink/70 md:text-xl">
-              Army veteran and former Sergeant (E-5) with a current Secret
-              clearance and active CompTIA Security+, ready to start cleared
+              Army veteran and former Sergeant (E-5) with a Secret clearance
+              eligible for reinstatement and active CompTIA Security+, ready to start cleared
               work quickly. In Iraq I trained 50+ people with no
               medical background to a 90% first-attempt pass rate and stood up a
               backup treatment facility in 10 days. I bring the same habits to

@@ -16,7 +16,7 @@ const Hero = () => {
         <div>
           <ScrollReveal direction="up">
             <span className="mb-5 inline-flex items-center gap-2 rounded-full border border-ink/10 bg-surface/60 px-4.5 py-2 text-base font-medium text-ink">
-              Secret Clearance (Current) · CompTIA Security+ · U.S. Army Veteran
+              Secret Clearance · CompTIA Security+ · U.S. Army Veteran
             </span>
           </ScrollReveal>
 
@@ -28,8 +28,8 @@ const Hero = () => {
 
           <ScrollReveal direction="up" delay={0.15}>
             <p className="mx-auto mb-9 max-w-[540px] text-lg font-medium text-ink/70 md:text-xl">
-              Army veteran with a current Secret clearance and active CompTIA
-              Security+, ready to start cleared work quickly.
+              Army veteran with a Secret clearance eligible for reinstatement
+              and active CompTIA Security+, ready to start cleared work quickly.
               Seeking an entry-level IT support or cybersecurity role on a
               defense or federal team.
             </p>
