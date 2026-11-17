@@ -4,8 +4,7 @@ import AnimatedText from "@/components/AnimatedText";
 const certifications = [
   "Secret Security Clearance — Current, eligible for reinstatement",
   "CompTIA Security+ — Active, exp. Mar 2029",
-  "Development Certifications: HTML/CSS, JavaScript, React",
-  "In Progress: Python coursework (Oct 2026)",
+  "COITB Development Certifications: Python, JavaScript, React, HTML/CSS",
 ];
 
 const About = () => {
@@ -26,17 +25,16 @@ const About = () => {
         <div className="grid gap-10 lg:grid-cols-[1.2fr_0.8fr]">
           <ScrollReveal direction="up" delay={0.1}>
             <p className="max-w-[640px] text-lg font-medium text-ink/70 md:text-xl">
-              Army veteran and former Sergeant (E-5) with a current Secret
-              clearance and active CompTIA Security+, ready to start on cleared
-              work without waiting on an investigation or certification. In Iraq
-              I trained 50+ people with no medical background to a 90%
-              first-attempt pass rate and stood up a backup treatment facility
-              in 10 days. I bring the same habits to IT: learning systems fast,
-              documenting precisely, and protecting sensitive data, with 100+
-              confidential records handled over 5+ years and zero breaches. I
-              write JavaScript and React and am adding Python now. Seeking an
-              entry-level IT support or cybersecurity role on a defense or
-              federal team.
+              Army veteran and former Sergeant (E-5) with a Secret clearance
+              eligible for reinstatement and active CompTIA Security+, ready to
+              start cleared work quickly. In Iraq I trained 50+ people with no
+              medical background to a 90% first-attempt pass rate and stood up a
+              backup treatment facility in 10 days. I bring the same habits to
+              IT: learning systems fast, documenting precisely, and protecting
+              sensitive data, with 100+ confidential records handled over 5+
+              years and zero breaches. I write JavaScript, React, and Python.
+              Seeking an entry-level IT support or cybersecurity role on a
+              defense or federal team.
             </p>
           </ScrollReveal>
 

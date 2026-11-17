@@ -28,10 +28,10 @@ const Hero = () => {
 
           <ScrollReveal direction="up" delay={0.15}>
             <p className="mx-auto mb-9 max-w-[540px] text-lg font-medium text-ink/70 md:text-xl">
-              Army veteran with a current Secret clearance and active CompTIA
-              Security+, ready to start on cleared work without waiting on an
-              investigation or certification. Seeking an entry-level IT support
-              or cybersecurity role on a defense or federal team.
+              Army veteran with a Secret clearance eligible for reinstatement
+              and active CompTIA Security+, ready to start cleared work quickly.
+              Seeking an entry-level IT support or cybersecurity role on a
+              defense or federal team.
             </p>
           </ScrollReveal>
 
